@@ -2,290 +2,390 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Стоматологическая клиника "Ортодентика"</title>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/bootstrap@5.0.0-alpha2.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Стоматологическая клиника "ОРТОДЕНТИКА"</title>
 </head>
 <body>
-    <header>
-        <div class="firstheader">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-2">
-                    <div class="firstheader_ort">ООО "ОРТОДЕНТИКА"</div> 
-                </div>
-                <div class="col-md-2 offset-md-1">
-                    <div class="firstheader_phone">+7 (4752) 72-96-95<br>
-                        +7 (4752) 55-84-50</div>
-                    </div>
-                <div class="col-md-3 offset-md-1">
-                <div class="firstheader_adress">г.Тамбов, ул.Чичканова, 131 <br>
-                    г.Тамбов, ул. Рылеева, 77, К4 </div>
-                    
-                </div>
-                <div class="col-md-2 offset-md-1">
-                    <div class="firstheader_time">ПН-ПТ 8:00-18:00 <br>
-                    ПН-ПТ 8:00-20:00</div></div>     
-                </div>
-            </div>
+    <header class="cd-header">
+        <div class="header-wrapper">
+            <div class="nav-but-wrap">
+                <div class="menu-icon hover-target">
+                    <span class="menu-icon__line menu-icon__line-left"></span>
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line menu-icon__line-right"></span>
+                </div>					
+            </div>					
         </div>
-        <nav>
-            <div class="container">
-                <ul class="menu">
-                    <li class="menu_item"><a href="#" class="menu_link">КЛИНИКА</a></li>
-                    <li class="menu_item">
-                        <div class="menu_item1">
-                            <button class="menu_link_btn">УСЛУГИ</button>
-                            <div class="menu_link_btn_content">
-                              <a class="menu_link_btn_content_sub" href="#">ТЕРАПИЯ</a> <br>
-                              <a class="menu_link_btn_content_sub" href="#">ОРТОДОНТИЯ</a> <br>
-                              <a class="menu_link_btn_content_sub" href="#">ОТБЕЛИВАНИЕ</a> <br>
-                              <a class="menu_link_btn_content_sub" href="#">ПРОФЕССИОНАЛЬНАЯ ГИГИЕНА</a> <br>
-                            </div>
-                          </div>
-                      </li>
-                    <li class="menu_logo"><img src="img/logo.png" alt=""></li>
-                    <div class="menu_item1">
-                        <button class="menu_link_btn">ДОКТОРА</button>
-                        <div class="menu_link_btn_content">
-                          <a class="menu_link_btn_content_sub" href="#">МИЛЬЧЕНКО АЛЕКСЕЙ НИКОЛАЕВИЧ</a> <br>
-                          <a class="menu_link_btn_content_sub" href="#">ГРИШИНА ЮЛИЯ ИГОРЕВНА</a> <br>
-                          <a class="menu_link_btn_content_sub" href="#">АБАКУМОВ АЛЕКСАНДР ЮРЬЕВИЧ</a> <br>
-                          <a class="menu_link_btn_content_sub" href="#">КОЛОДИНА ЕЛЕНА АЛЕКСАНДРОВНА</a> <br>
-                        </div>
+        <div class="nav">
+          <div class="nav__content container-fluid">
+              <div class="row">
+                  <div class="col-md-1 offset-2">
+                      <div class="social__phone" id="exemple1">
+                          <img class="icon" src="img/icons/telegram.png" alt="" ></img>
+                          <span class="social__phone_descr">подпишитесь на наш telegram-канал</span>
+                              
                       </div>
-                    <li class="menu_item"><a href="#" class="menu_link">КОНТАКТЫ</a></li>
-                </ul>
-            </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-       
+                      <div class="social__phone" id="exemple2">
+                          <img class="icon" src="img/icons/phone.png" alt="">
+                          <span class="social__phone_descr">записысывайесь на прием по телефону</span>
+                          
+                      </div>
+                      <div class="social__phone" id="exemple3">
+                          <img class="icon" src="img/icons/pencil.png" alt="">
+                          <span class="social__phone_descr">воспользуйтесь нашей онлайн-записью</span>
+                          
+                      </div>
+                      <div class="social__phone" id="exemple4">
+                          <img class="icon" src="img/icons/whatsapp.png" alt="">
+                          <span class="social__phone_descr">свяжитесь с нами в whatsupp
+                          </span>
+                          
+                      </div>
+                  </div> 
+                  <div class="col-md-6">
+                      <ul class="nav__list">
+                          <li class="nav__list-item"><a href="#clinic" class="hover-target" id="ShowHide1">о клинике</a></li>
+                          <li class="nav__list-item"><a href="#specialists" class="hover-target" id="ShowHide2">специалисты</a></li>
+                          <li class="nav__list-item"><a href="#" class="hover-target" id="ShowHide3">услуги и цены</a></li>
+                          <li class="nav__list-item"><a href="#" class="hover-target" id="ShowHide4">связаться с нами</a></li>
+                      </ul>
+                  </div>  
+ 
+              </div>
+          </div>
+      </div> 				
     </header>
-
-    <section class="promo">
-        <div class="container"> 
-            <div class="wrapper">
-                <input type="radio" name="point" id="slide1" checked>
-                <input type="radio" name="point" id="slide2">
-                <input type="radio" name="point" id="slide3">
-                <input type="radio" name="point" id="slide4">
-                <input type="radio" name="point" id="slide5">
-                <div class="slider">
-                    <div class="slides slide1"><h2>уже более 10 лет <br>  
-                        мы боремся за ваше доверие!</h2> <p>Политика нашей клиники в сохранении приемлемых цен, <br> обеспечивая при этом высококачественную <br> медицинскую помощь</p> </div>
-                    <div class="slides slide2"><h2>самое важное для нас - профессионализм</h2><p>Все доктора имеют сертификаты, постоянно следят за достижениями совеременной стоматологии, повышают квалификацию, участвуя в научных конференциях и семинарах по всему миру</p></div>
-                    <div class="slides slide3"><h2>Мы не стоим на месте и становимся лучше для вас!</h2>
-                    <button class="slides_btn">Записаться на прием</button></div>
-                </div>
-                <div class="controls">
-                    <label for="slide1"></label>
-                    <label for="slide2"></label>
-                    <label for="slide3"></label>
-                </div>
-            </div>
-    </section>
-
-    <section class="clinic">
-        <div class="container">
-            <div class="clinic_about">
-                <h2 class="title">стоматологическая клиника <br>
-                    <span class="colortext">Ортодентика</span></h2>
-                    <ul class="link_authorities">
-                        <li>
-                            <a href="#" class="license">Лицензии</a>
-                        </li>
-                        <li>
-                            <a href="#" class="authorities">Контролирующие органы</a>  
-                        </li>
-                </ul>
-                <div class="clinic_slider">
-                    
-                </div>    
-            </div>
-            <div class="director">
-                <p>“Наша клиника специализируется на лечении пациентов с аномалиями зубочелюстной системы. Мы оказываем различные виды стоматологической помощи, включая эстетическое, терапевтическое, ортодонтическое и ортопедическое лечение. <br> <br> Вся наша команда врачей четко осознает те цели, которые необходимо достичь в результате лечения, и именно это позволяет нам добиваться хороших эстетических и самое главное функциональных результатов!” <br> <br>
-                <span class="doctor">Руководитель клиники “Ортодентика” Мильченко Алексей Николаевич</span></p>
-            </div>
-        </div>
-    </section>
-
-    <section class="services">
-        <div class="container">
-            <h2 class="services_title">УСЛУГИ</h2>
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-md-3 offset-md-1">
-                    <div class="service_item">
-                        <div class="service_item_subtitle"> <h3>Ортодонтия</h3>
-                            </div>
-                            <ul class="link_sevice">
-                                <li>Коррекция прикуса</li>
-                                <li>Исправление искревленных <br> зубов</li>
-                            </ul>
-                        <button class="service_button">Подробнее об услуге</button>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="service_logo_up"> <img src="../icons/tooth.png" alt="tooth">
-                    </div>
-                </div>
-                <div class="col-xs-3">
-                    <div class="service_item">
-                        <div class="service_item_subtitle"><h3>Ортопедия</h3></div>
-                            <ul class="link_sevice">
-                                <li> Протезирование зубов</li>
-                                <li>Имплантация зубов</li>
-                            </ul>
-                        <button class="service_button">Подробнее об услуге</button>
-                    </div>
-                </div> 
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <div class="service_item_white">
-                        <div class="service_item_subtitle"> <h3>Отбеливание</h3>
-                            </div>
-                            <ul class="link_sevice">
-                                <li>Изменение оттенка зубной <br> эмали</li>
-                            </ul>
-                        <button class="service_button">Подробнее об услуге</button>
-                    </div>
-                </div>
-                <div class="col-xs-1">
-                    <div class="service_logo"> <img src="../icons/tooth.png" alt="tooth">
-                    </div>
-                </div>
-                <div class="col-xs-3">
-                    <div class="service_item_therapy">
-                        <div class="service_item_subtitle"><h3>терапия</h3></div>
-                            <ul class="link_sevice">
-                                <li>Лечение кариеса</li>
-                                <li>Лечение пульпита</li>
-                                <li>Лечение периодонтита</li>
-                            </ul>
-                        <button class="service_button">Подробнее об услуге</button>
-                    </div>
-                </div>
-                <div class="col-xs-1">
-                    <div class="service_logo"> <img src="../icons/tooth.png" alt="tooth">
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="service_item_hygiene">
-                        <div class="service_item_subtitle"> <h3>профессиональная гигиена</h3>
-                            </div>
-                            <ul class="link_sevice_hygiene">
-                                <li>Ультразвуковая чистка зубов</li>
-                                <li>Чистка по технологии AirFlow</li>
-                                <li>Полировка зубов</li>
-                            </ul>
-                        <button class="service_button">Подробнее об услуге</button>
-                    </div>
-                </div>
-        </div>
-    </section>
-
-    <section class="doctors" id="doctors">
-        <div class="container">
-            <div class="doctors_text">
-                <h2>наши <br> доктора</h2>
-                <p>Профессионально и качественно окажут любую стоматологическую помощь, дадут необходимую консультацию и совместно в вами разработают план индивидуального лечения</p>
-            </div>
-            <div class="doctors_guarantees"><p>Для каждого пациента гарантируется соблюдение врачебной тайны и охрана его перснальных данных</p></div>
-
-    </section>
-
-    <section class="information">
-        <div class="container">
-            <h2 class="contacts">Контактная <br> информация</h2>
-            <ul class="clinic_chichkanova">
-                <li>
-                    <a href="#" class="world_link">Г. ТАМБОВ, УЛ. ЧИЧКАНОВА, 131</a>
-                    <div class="clininc_information">Яндекс.Карта Схема проезда</div>                    
-                </li>
-                <li><a href="#" class="world_link">Контактный телефон</a></li>
-                <li><a href="#" class="world_link">Врачи, осуществляющие прием</a></li>
-                <li><a href="#" class="world_link">Режим работы</a></li>
-            </ul>
-            <ul class="clinic_rileeva">
-                <li><a href="#" class="world_link">г. Тамбов, ул. Рылеева, 77, К4</a></li>
-                <li><a href="#" class="world_link">Контактный телефон</a></li>
-                <li><a href="#" class="world_link">Врачи, осуществляющие прием</a></li>
-                <li><a href="#" class="world_link">Режим работы</a></li>
-            </ul>
     
-          
-
-
+    <section class="main_image container-fluid" id="first_sector">
+        <div class="row">
+            <div class="col-md-1 offset-1 w-50 p-3">
+                <div class="connection">
+                    <p>
+                        <a href="tel:74752729695">
+                            <img src="img/icons/phone-link.png" alt="">
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://t.me/ortodentica">
+                            <img src="img/icons/telegram-link.png" alt="">
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            <img src="img/icons/instagram-link.png" alt="">
+                        </a>
+                    </p>
+                </div>
+                
+            </div>
         </div>
     </section>
+<!-- слайдер "о клинике" -->
+    <section class="main_slider" id="clinic"> 
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12" style="padding: 0;" >
+              <div id="main">
+                <div class="buttons">
+                    <button class="next" onclick="go(-1)"></button>
+                    <button class="prev" onclick="go(1)"></button>
+                </div>
+            </div>
+                
+            </div>
+          </div>
+      </div>
+    </section>
 
-    <footer>
-        <div class="footer_divider"></div>
-        <div class="footer_wrapper">
-            <!-- Если не оборачивать каждый блок в обертку - получится криво -->
-            <div>
-                <div class="footer_social">
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+<!-- Специалисты -->
+    <section class="doctors" id="specialists">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <input type="radio" name="point" id="slide1" checked>
+                        <input type="radio" name="point" id="slide2">
+                        <input type="radio" name="point" id="slide3">
+                        <input type="radio" name="point" id="slide4">
+                        <input type="radio" name="point" id="slide5">
+                        <input type="radio" name="point" id="slide6">
+                        <input type="radio" name="point" id="slide7">
+                        <div class="slider">
+                            <div class="slides slide1">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-2"><h2>Мильченко Алексей Николаевич</h2></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-2" >
+                                            <p class="position"><b>Руководитель клиники </b><br>
+                                                Врач-стоматолог ортодонт, ортопед</p> 
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li><h3>опыт работы</h3></li>
+                                                <li><p class="description">Более 20 лет</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>образование</h3></li>
+                                                <li><p class="description">Саратовский ГМУ им. В.И. Разумовского</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>специализация</h3></li>
+                                                <li><p class="description">Исправление врожденных аномалий прикуса, неправильного  расположения зубов с использованием съемной и несъемной ортодонтической аппаратуры. Специалист в области восстановления зубов и их протезирования.</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>повышение квалификации</h3></li>
+                                                <li><p class="description">Постоянно повышает свою квалификацию в России и за рубежом (Италия, Германия, Испания, Турция, Чили, Великобритания, Австрия и др.)</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides slide2">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-2"><h2>гришина юлия <br> игоревна</h2></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-2" >
+                                            <p class="position_stomatologist">Врач-стоматолог <br> терапевт</p> 
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li><h3>опыт работы</h3></li>
+                                                <li><p class="description">Более 12 лет</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>образование</h3></li>
+                                                <li><p class="description">Саратовский ГМУ им. В.И. Разумовского</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>специализация</h3></li>
+                                                <li><p class="description">Устранение поверхностного, среднего и в особенности  глубокого кариеса и его осложнений с применением микроскопа. Специалист в области эндодонтического лечения и реставрации зубов.</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>повышение квалификации</h3></li>
+                                                <li><p class="description">Постоянно повышает свою квалификацию, осваивая и применяя современные технологии эстетической стоматологии и эндодонтического лечения.</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides slide3">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-2"><h2>колодина елена <br> александровна</h2></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-2" >
+                                            <p class="position_stomatologist">Врач-стоматолог <br> терапевт</p> 
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li><h3>опыт работы</h3></li>
+                                                <li><p class="description">Более 12 лет</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>образование</h3></li>
+                                                <li><p class="description">Саратовский ГМУ им. В.И. Разумовского</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>специализация</h3></li>
+                                                <li><p class="description">Лечение всех форм неосложненного и осложненного кариеса под микроскопом, восстановление внешней эстетики зубов с использованием современных технологий художественной реставрации.</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>повышение квалификации</h3></li>
+                                                <li><p class="description">Постоянно повышает свою квалификацию, обучаясь новым методикам лечения и реставрации зубов.</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides slide4">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-2"><h2>абакумов александр <br> юрьевич</h2></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-2" >
+                                            <p class="position_stomatologist">Врач-стоматолог <br> терапевт</p> 
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li><h3>опыт работы</h3></li>
+                                                <li><p class="description">Более 12 лет</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>образование</h3></li>
+                                                <li><p class="description">Саратовский ГМУ им. В.И. Разумовского</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>специализация</h3></li>
+                                                <li><p class="description">Лечение всех форм неосложненного и осложненного кариеса под микроскопом, восстановление внешней эстетики зубов с использованием современных технологий художественной реставрации.</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>повышение квалификации</h3></li>
+                                                <li><p class="description">Постоянно повышает свою квалификацию, обучаясь новым методикам лечения и реставрации зубов.</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides slide5">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-2"><h2>субботина анастасия <br> александровна</h2></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-2" >
+                                            <p class="position_stomatologist">Врач-стоматолог <br> терапевт</p> 
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li><h3>опыт работы</h3></li>
+                                                <li><p class="description">Более 12 лет</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>образование</h3></li>
+                                                <li><p class="description">Саратовский ГМУ им. В.И. Разумовского</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>специализация</h3></li>
+                                                <li><p class="description">Лечение всех форм неосложненного и осложненного кариеса под микроскопом, восстановление внешней эстетики зубов с использованием современных технологий художественной реставрации.</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>повышение квалификации</h3></li>
+                                                <li><p class="description">Постоянно повышает свою квалификацию, обучаясь новым методикам лечения и реставрации зубов.</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides slide6">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-2"><h2>субботина анастасия <br> александровна</h2></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-2" >
+                                            <p class="position_stomatologist">Врач-стоматолог <br> терапевт</p> 
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li><h3>опыт работы</h3></li>
+                                                <li><p class="description">Более 12 лет</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>образование</h3></li>
+                                                <li><p class="description">Саратовский ГМУ им. В.И. Разумовского</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>специализация</h3></li>
+                                                <li><p class="description">Лечение всех форм неосложненного и осложненного кариеса под микроскопом, восстановление внешней эстетики зубов с использованием современных технологий художественной реставрации.</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>повышение квалификации</h3></li>
+                                                <li><p class="description">Постоянно повышает свою квалификацию, обучаясь новым методикам лечения и реставрации зубов.</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slides slide7">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-5 offset-2"><h2>субботина анастасия <br> александровна</h2></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 offset-md-2" >
+                                            <p class="position_stomatologist">Врач-стоматолог <br> терапевт</p> 
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li><h3>опыт работы</h3></li>
+                                                <li><p class="description">Более 12 лет</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>образование</h3></li>
+                                                <li><p class="description">Саратовский ГМУ им. В.И. Разумовского</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>специализация</h3></li>
+                                                <li><p class="description">Лечение всех форм неосложненного и осложненного кариеса под микроскопом, восстановление внешней эстетики зубов с использованием современных технологий художественной реставрации.</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li><h3>повышение квалификации</h3></li>
+                                                <li><p class="description">Постоянно повышает свою квалификацию, обучаясь новым методикам лечения и реставрации зубов.</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="controls">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <label for="slide1"></label>
+                                        <label for="slide2"></label>
+                                        <label for="slide3"></label>
+                                        <label for="slide4"></label>
+                                        <label for="slide5"></label>
+                                        <label for="slide6"></label>
+                                        <label for="slide7"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    </section>
+    <section class="price" id="services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <div class="service_prosthetics">
+                        <h2>протезирование</h2>
+                        <p>Постоянно повышает свою квалификацию в России и за рубежом</p>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class="footer_links">
-                    <div class="footer_links_main">
-                        <a href="#">на главную</a>
-                        <a href="#">города</a>
-                        <a href="#">для водителей</a>
-                    </div>
-                    <div class="footer_links_sub">
-                        <a href="#">центр поддержки</a>
-                        <a href="#">вакансии</a>
-                        <a href="#">разработчики</a>
-                        <a href="#">блог</a>
-                        <a href="#">о нас</a>
-                    </div>
-                    <a href="#" class="footer_links_lang">Русский</a>
+            <div class="row">
+                <div class="col-md-4 offset-1">
+                    <h2>ортодонтия</h2>
+                    <p>Постоянно повышает свою квалификацию в России и за рубежом </p>
+                </div>
+                <div class="col-md-4 offset-3">
+                    <h2>отбеливание</h2>
+                    <p>Постоянно повышает свою квалификацию в России и за рубежом </p>
                 </div>
             </div>
-            <div>
-                <div class="footer_mobile">
-                    <a href="#">
-                        <img src="img/app_store.png" alt="App Store">
-                    </a>
-                    <a href="#">
-                        <img src="img/google_play.png" alt="Google play">
-                    </a>
-                    <a href="#">
-                        <img src="img/windows_store.png" alt="Windows store">
-                    </a>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>терапия</h2>
+                    <p>Постоянно повышает свою квалификацию в России и за рубежом </p>
+                </div>
+                <div class="col-md-3 offset-5">
+                    <h2>профгигиена</h2>
+                    <p>Постоянно повышает свою квалификацию в России и за рубежом </p>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="script.js"></script>
 
-    <script src="js/script.js"></script>
 </body>
 </html>
